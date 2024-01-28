@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body {
+        margin: 0;
+        padding: 0;
+        font-family: "Fjalla", sans-serif;
+        font-size: 12px;
+    }
+  
+
+    .menu {
+        background-color: #000000;
+        height: 80px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .menu ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+    .menu a {
+        color: #fff;
+        text-decoration: none;
+
+    }
+    .menu li {
+        margin-right: 40px;
+    }
+    .menu li:hover {
+        transform: translateY(-3px);
+    }
+    .about {
+        margin-right: 30px;
+    }
+    .logo {
+        margin-left: 30px;
+    }
+    .logo:hover {
+        transform: translateY(-3px);
+    }
+    .active {
+        background-color: #3f3f3f;
+    }
+
+
+    /*Dropdown*/
+    .dropdown {
+        position: relative;
+        z-index: 1;
+    }
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #333;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+    
+    .dropdown-content a {
+        color: white;
+        display: block;
+        padding: 12px 16px;
+    }
+    
+    .dropdown-content a:hover {
+        background-color: #3f3f3f;
+    }
+    
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+
+    /*gallery*/
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 50px; 
+        max-width: 100%; 
+        margin: 0 auto; 
+      }
+      
+      .gallery-item {
+        flex: 1 1 calc(33.33% - 20px); 
+        position: relative;
+        overflow: hidden;
+        height: 400px; 
+      }
+      
+      .gallery-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; 
+      }
+      .gallery-item:hover {
+        transform: scale(1.03); 
+        filter: blur(2px);
+      }
+     
+      
+      
+      
+      
+      
+      
+
+
+
+
+      
+      
+      
+    
+   
